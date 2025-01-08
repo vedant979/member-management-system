@@ -1,0 +1,39 @@
+[
+  {
+    "ContainingType": "Project5.Controllers.UserController",
+    "Method": "RegisterUserAsync",
+    "RelativePath": "register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerUser",
+        "Type": "Project5.DTOs.RegisterUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project5.Controllers.UserController",
+    "Method": "UpdateUserData",
+    "RelativePath": "updateprofile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateUser",
+        "Type": "Project5.DTOs.UpdateMemberDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
